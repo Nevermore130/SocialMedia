@@ -1,0 +1,8 @@
+.Home {
+  position: relative;
+  display: grid;
+  /* the column and cloumn will have the alignment of 18 rem ; auto;  and 20 rem okay */
+  /* 18 rem is the size of our left column; the center side has width of autp while the right side has the 20 rem */
+  grid-template-columns: 18rem auto 20rem;
+  gap: 1rem;
+}
